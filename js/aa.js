@@ -1,5 +1,5 @@
 document.querySelector('#btnIng').addEventListener('click', datos);
-tableing(); //segun el boton guarda los archivos
+tableing();
 
 
 function datos(){
