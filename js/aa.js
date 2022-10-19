@@ -82,3 +82,4 @@ localStorage.setItem('Fallas',Fallas);
 function geting(){
     return ing;
 }
+
