@@ -4,42 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title></title>
 </head>
 <body>
 
-   <div>
-    <h2>Resgistro de vehiculo</h2>
+    <section class="register">
+        <center>  <h4>- Taller3 -</h4></center>
     <form>
-<section >
-            <label for="txtName">Nombre:</label>
-            <input type="text" class="form-control" id="txtName" placeholder="Ingrese su nombre">
-</section >    
 
-<section>
-    <label for="txtDui">Dui:</label>
-    <input type="text" class="form-control" id="txtDui" placeholder="12341234-9">
-</section>
+    <label for="Name">Nombre:</label>
+    <input type="text"  id="Name" placeholder="Ingrese su nombre"><br>
 
-<section >
-    <label for="txtPlaca">Placa:</label>
-    <input type="text" class="form-control" id="txtPlaca" placeholder="Ingrese la placa">
-</section >
+  
+    <label for="Dui">Dui:</label>
+    <input type="text"  id="Dui" placeholder="12341234-9"><br>
 
-<section >
-        <label for="txtnit">Nit:</label>
-        <input type="text" class="form-control" id="txtni" placeholder="El formato del NIT en El Salvador es ####-######-###-#">
-</section>
 
-<section >
-    <label for="txtFechaNac">Fecha de ingreso:</label>
-    <input type="date" class="form-control" id="txtFechaNac" placeholder="Ingrese la fecha de ingreso">
-    </section>
+    <label for="Placa">Placa:</label>
+    <input type="text"  id="Placa" placeholder="Ingrese la placa"><br>
 
-<section >
-                <label for="txtMarca">Marca:</label>
-                <select class="form-control" id="txtMarca" placeholder="Seleccione su marca">
+    <label for=" Nit">Nit:</label>
+    <input type="text"  id="Nit" placeholder="El formato del NIT en El Salvador es ####-######-###-#"><br>
+
+
+    <label for="FechaNac">Fecha de ingreso:</label>
+    <input type="date"  id="FechaNac" placeholder="Ingrese la fecha de ingreso"><br>
+
+                <label for="Marca">Marca:</label>
+                <select  id="Marca" placeholder="Seleccione su marca">
                     <option>Toyota</option>
                     <option>Chevrolet</option>
                     <option>Nissan</option>
@@ -59,22 +52,20 @@
                     <option>Mini</option>
                     <option>Maserati</option>
                 </select>
-</section>
-<section>
-<label for="txtModelo">Modelo:</label>
-<input type="text" class="form-control" id="txtModelo" placeholder="Escriba su modelo">
-</section>
 
-    <section class="form-group">
-    <label for="txtFallas">Fallas:</label>
-    <input type="text" class="form-control" id="txtFallas" placeholder="Ingrese la falla del vehiculo">
-    </section>
-           <button type="button" class="btn btn-default" id="btnIng">Ingresar datos </button>
+<br>
+<label for="Modelo">Modelo:</label>
+<input type="text"  id="Modelo" placeholder="Escriba su modelo"><br>
+
+<label for="Fallas">Fallas:</label>
+<input type="text"  id="Fallas" placeholder="Ingrese la falla del vehiculo"><br>
+
+           <button type="button"  id="btnIng">Ingresar datos </button>
     </form>
-   </div>
+    </section>
 
    <div class="container">
-    <h2>Datos</h2>
+    <center><h2>Datos</h2></center>
     <table class="table table-hover" id="tableing">
         <thead>
             <tr>
@@ -92,7 +83,6 @@
 </tbody>
 </table>
 </div>
-<script src="js/add.js"></script>
 <script src="js/aa.js"></script>
 </body>
 </html>
