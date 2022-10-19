@@ -1,48 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: #2DB8BC;
+body {
+  background-image: url('fondo.jpg');
 }
 
-
-section{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
 }
 
-
-input{
-    width: 50vw;
-    padding: 10px;
-    outline: none;
-    border: 5px solid #CCD1E4;
-    font-weight: 600;
-
+.register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
-#listaArticulos{
-    font-size: 30px;
-    margin-top: 20px;
-    list-style: none;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: center;
-}
-li{
-    margin: 5px 0;
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
 }
 
-.filtro{
-    display: none;
+.register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.register a {
+  color: white;
+  text-decoration: none;
+}
+
+.register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+table{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+td,th{
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
